@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+html{
+    background-color: #141414;
+    font-family: Inter;
+}
+body{
+    margin: 200px auto;
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+    border-radius: 15px;
+}
+
+.apresentacao{
+    margin-bottom: 10px;
+}
+.nome{
+    font-size: 25px;
+    margin: 10px;
+}
+.origem{
+    font-size: 15px;
+    color: greenyellow;
+    margin-bottom: 25px;
+}
+.descricao{
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.foto{
+    width: 80px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    width: 30vw;
+    font-weight: 750;
+    font-size: 14px;
+}
+
+ul li{
+    margin: 15px 1vw;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    padding: 10px 0px;
+}
